@@ -28,7 +28,7 @@ nav.navbar ul{
 }
 
 header{
-    background:url('MS\ Dhoni\ img.jpg');
+    background:url('MS\ Dhoni\ img.jpg.png');
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -36,7 +36,7 @@ header{
 }
 
 header div.heading h1{
-    font-size:5.8rem;
+    font-size:4rem;
     font-weight: bold;
     font-family: 'Manrope', sans-serif;
 font-family: 'Noto Serif Display', serif;
@@ -46,6 +46,8 @@ font-family: 'Signika Negative', sans-serif;
     color:#fff;
     position:relative;
     top:220px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
 }
 
 .bio{
@@ -98,6 +100,7 @@ div.personal-life p{
 background: -webkit-linear-gradient(to right, #26D0CE, #2b3b97);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #26D0CE, #2b3b97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+padding-top:40px;
 }
 
 div.career h1{
@@ -117,8 +120,9 @@ div.career p{
 .achievements{
     background: #1FA2FF;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to top, #a9fccb, #5ddbf1, #0496ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+padding-bottom:100px;
 }
 
 div.achievements h1{
@@ -126,6 +130,9 @@ div.achievements h1{
     font-size:2.5rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top:40px;
+    padding-bottom:40px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 div.achievements ul{
@@ -138,15 +145,20 @@ div.achievements ul li{
     margin: 0 auto;
     padding-top: 50px;
     background: #000;
-    font-size:1.6rem;
+    font-size:1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 div.achievements ul li div{
     width:500px;
-    background: #FDFC47;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #34e89e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family:"Helvetica Neue", sans-serif;
+color:#fff;
+padding:7px;
+text-align: center;
     border-radius:8px;
 }
 
